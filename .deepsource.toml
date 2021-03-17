@@ -7,11 +7,21 @@ enabled = true
   [analyzers.meta]
   environment = [
     "nodejs",
+    "browser",
+    "jest",
+    "mocha",
+    "jasmine",
     "jquery",
-    "mongo"
+    "mongo",
+    "cypress"
   ]
   plugins = [
     "react",
+    "vue",
+    "ember",
+    "meteor",
     "angularjs",
     "angular"
   ]
+  style_guide = "google"
+  dialect = "typescript"
